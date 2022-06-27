@@ -13,6 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {  //principal, tipo index
-    return view('welcome');
-});
+use App\Http\Controllers\EventController;
+
+Route::get('/', [EventController::class, 'index']);
+Route::get('/home', [EventController::class, 'home']);
+Route::get('/createGoal', [EventController::class, 'createGoal']);

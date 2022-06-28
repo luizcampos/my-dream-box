@@ -16,7 +16,7 @@ Antes de seu desenvolvimento, o myDreamBox teve seu protótipo criado, algo que 
 **[Veja o protótipo](https://www.figma.com/file/r0loiAVkuDAUsMN7AzslbF/myDreamBox?node-id=0%3A1)**
 
 **Cores:** Todo o projeto tem em sua base apenas duas cores. O verde associado ao dinheiro e o rosa ao porquinho que simboliza o ato de guardar dinheiro.
-<br/>
+<br/><br/>
 **Fonte:** [Dosis](https://fonts.google.com/specimen/Dosis)
 
 <p align="center">
@@ -45,8 +45,9 @@ Para isso, será necessário que você clone esse projeto para a sua máquina.
 <p>2º - Abra-o no VS Code</p>
 <p>3º - Execute no terminal do projeto: `git init`</p>
 <p>4º - Execute no terminal do projeto: `git clone https://github.com/luizcampos/my-dream-box.git`</p>
-<p>5º - O arquivo '.env' e a pasta 'vendor' não serão clonados. [Baixe-os aqui](https://drive.google.com/drive/folders/1-40ZA3FJcqU8NTBfYHk66PYBj_4IySQd?usp=sharing) . Após isso, inclua-os no seu projeto.
+<p>5º - O arquivo '.env' e a pasta 'vendor' não serão clonados. Baixe-os aqui: https://drive.google.com/drive/folders/1-40ZA3FJcqU8NTBfYHk66PYBj_4IySQd?usp=sharing. Após isso, inclua-os no seu projeto.
 
+<br/>
 <h3>Conectando ao Banco de Dados</h3>
 
 <p>1º - Execute o XAMPP, dando start no <strong>Apache</strong> e no <strong>MySQL</strong></p>
@@ -55,6 +56,7 @@ Para isso, será necessário que você clone esse projeto para a sua máquina.
 <p>4º - Verifique se arquivo '.env', que contém todas as variáveis ambiente, possui como valor da variável DB_DATABASE o nome "mydreambox"</p>
 <p>5º - No terminal do projeto execute o comando: `php artisan migrate`</p>
 
+<br/>
 <h3>Executando a aplicação</h3>
 
 </p>Para executar, basta digitar no terminal do projeto aberto no VS Code o seguinte: `php artisan serve` e clicar no link local exibido.</p>

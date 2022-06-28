@@ -21,6 +21,22 @@
         <!-- Icons -->
         <script src="https://unpkg.com/phosphor-icons"></script>
 
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+
+        <script>
+            function formatar(mascara, campo){
+                var i = campo.value.length; //1, 2
+                console.log(i);
+                var saida = mascara.substring(0,1); //sempre #
+                var texto = mascara.substring(i); //##/##/####, #/##/####, /##/####...    - pega o restante da máscara sem a qtde incial do i
+
+                if(texto.substring(0,1) != saida){// # == # ,   # == #,   / != #.... 
+                    campo.value += texto.substring(0,1); // 29 += /,    29/09 += /     - recebe todo caractere diferente de #
+                }
+            }
+        </script>
+
     </head>
     <body>
         <header class="headerPos col-12">
@@ -38,6 +54,18 @@
                 </ul>
             </nav>
         </header>
+
+        <br/>
+
+        <main>
+            <div class="container-fluid">
+                <div class="row">
+                    @if(session('msg'))
+                        <p class="msgSuccess">{{ session('msg')}}</p>
+                    @endif                    
+                </div>
+            </div>
+        </main>
 
         <br/>
                     

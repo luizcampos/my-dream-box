@@ -19,24 +19,27 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
         <!-- Icons -->
-        <script src="https://unpkg.com/phosphor-icons"></script>
-
+        <script src="https://unpkg.com/phosphor-icons"></script>    
     </head>
     <body>
         <header class="headerPre">
 
         </header>
 
-        <h1>Olá!</h1>
+        <fieldset>
+            <label>
+                Como você quer ser chamado?<br/>
+                <input type="text" placeholder="Luiz Fellipe"/>
+            </label>
+            <br/>
+            <label>
+                Qual é a sua renda mensal? <br/>
+                <input type="number" placeholder="R$"/>
+            </label>
+            <br/>
+            <button class="btn btn-success">Entrar</button>
+        </fieldset>
 
-        @if(10 >5)
-            <p>A condição é true</p>
-        @endif
-
-        @php
-            $name = "Luiz";
-            echo $name;
-        @endphp
     </body>
 </html>
 

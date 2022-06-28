@@ -7,17 +7,15 @@
         <h1>Olá, fulano!</h1>
         <h4>Essas são as suas metas:</h4>
     </section>
-    
-    <h4>Busque uma meta</h4>
 
     <section class="cardsGoals">
         <div class="row">
                 @foreach($goals as $goal)
-                    <div class="card col-md-4 col-xl-4 col-sm-12">
+                    <div class="card col-xs-12 col-sm-12 col-md-3 col-lg-3">
                         <header class="font-bolder my-header-card">
                             {{ $goal->goal_title }}
                             <div>
-                                <a href="/events/pageEditGoal/{{ $goal->id}}" class="btnDelete">
+                                <a href="/events/pageEditGoal/{{ $goal->id}}" class="btnUpdate">
                                     <i class="ph-pencil-simple"></i>
                                 </a>
 
@@ -33,6 +31,7 @@
                         <div class="card-body">
                             <p class="card-title">{{ $goal->goal_date}}</p>
                             <p class="card-title">Você tem R${{ $goal->goal_cash_today}}</p>
+                            <p class="card-title">Você precisa de R${{ $goal->goal_cash_total}}</p>
                         </div>
                     </div>
                 @endforeach

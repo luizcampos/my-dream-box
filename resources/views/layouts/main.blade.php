@@ -20,6 +20,7 @@
 
         <!-- Icons -->
         <script src="https://unpkg.com/phosphor-icons"></script>
+        <link rel="icon" type="imagem/png" href="/img/coin.png" />
 
         <!-- jQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
@@ -39,14 +40,13 @@
 
     </head>
     <body>
-        <header class="headerPos col-12">
+        <header class="headerPos justify-content-between">
             <a href="/">
-                <div class="col-4 col-md-4 col-xl-4 col-sm-4">
+                <div class="col-4">
                     <img src="/img/logo-in-line-white.png" class="img-fluid"/>
                 </div>  
             </a>
-
-            <nav class="col-6 col-md-6  col-xl-6 col-sm-6">
+            <nav class="">
                 <ul>
                     <li>Metas</li>
                     <li>Perfil</li>
@@ -72,7 +72,7 @@
         @yield('content')
 
         <footer class="centerElements">
-            <h3>Ajuda</h3>
+            <p>Ajuda</p>
         </footer>
     </body>
 </html>

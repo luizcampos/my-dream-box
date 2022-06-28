@@ -20,26 +20,31 @@
 
         <!-- Icons -->
         <script src="https://unpkg.com/phosphor-icons"></script>    
+        <link rel="icon" type="imagem/png" href="/img/coin.png" />
+        
     </head>
-    <body>
-        <header class="headerPre">
+    <body class="bodyWelcome">
+        <div class="divCenter">
+            <header class="headerPre col-12">
+                <img src="/img/logo-myDreamBox.png" class="img-fluid"/>
+            </header>
+        </div>
+        
 
-        </header>
+        <br/>
+        <br/>
 
-        <fieldset>
-            <label>
-                Como você quer ser chamado?<br/>
-                <input type="text" placeholder="Luiz Fellipe"/>
-            </label>
+        <section class="centerElements spacePadding">
+            <p class="textWelcome">Bem-vindo ao <strong>myDreamBox</strong>, o lugar onde você pode organizar as suas metas financeiras e torná-las realidade!</p>
+
             <br/>
-            <label>
-                Qual é a sua renda mensal? <br/>
-                <input type="number" placeholder="R$"/>
-            </label>
-            <br/>
-            <button class="btn btn-success">Entrar</button>
-        </fieldset>
-
+            <a href="/home">
+                <button class="btn btn-success buttonWelcome">Entrar</button>
+            </a>
+        </section>
+        <footer class="centerElements">
+            <p>Ajuda</p>
+        </footer>
     </body>
 </html>
 

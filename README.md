@@ -4,11 +4,11 @@
 
 ## Sobre o myDreamBox
 
-O myDreamBox é um aplicação para auxiliar no controle de metas financeiras pessoais. Com essa aplicação você poderá:
+O myDreamBox é uma aplicação para auxiliar no controle de metas financeiras pessoais. Com essa aplicação você poderá:
 
-- Criar metas, definindo título, valor total, data de realização e o valor reservado atualmente.
-- Editar metas
-- Excluir metas
+- Criar metas, definindo título, valor total, data de desejada para realização e o valor reservado atualmente;
+- Editar metas;
+- Excluir metas.
 
 ## Prototipagem
 
@@ -16,11 +16,14 @@ Antes de seu desenvolvimento, o myDreamBox teve seu protótipo criado, algo que 
 **[Veja o protótipo](https://www.figma.com/file/r0loiAVkuDAUsMN7AzslbF/myDreamBox?node-id=0%3A1)**
 
 **Cores:** Todo o projeto tem em sua base apenas duas cores. O verde associado ao dinheiro e o rosa ao porquinho que simboliza o ato de guardar dinheiro.
+<br/>
 **Fonte:** [Dosis](https://fonts.google.com/specimen/Dosis)
 
-<p align="center"><img src="public/img/figma/colors.png" width="300"></p>
-<p align="center"><img src="public/img/figma/fonts.png" width="300"></p>
-<p align="center"><img src="public/img/figma/logos.png" width="300"></p>
+<p align="center">
+  <img src="public/img/figma/colors.png" width="400">
+  <img src="public/img/figma/fonts.png" width="400">
+</p>
+<p align="center"><img src="public/img/figma/logos.png" width="400"></p>
 
 
 ## Como utilizar?
@@ -32,28 +35,29 @@ A utilização é fácil, siga os passos abaixo:
 - **[XAMPP](https://www.apachefriends.org/pt_br/index.html)**
 - **[Composer](https://getcomposer.org/download/)**
 - **[Laravel](https://laravel.com/)**
-- **[VSCode](https://code.visualstudio.com/Download)**
+- **[VS Code](https://code.visualstudio.com/Download)**
 
 <h3>Instalação</h3>
 
 Para isso, será necessário que você clone esse projeto para a sua máquina. 
 
 <p>1º - Crie um diretório específico para a aplicação</p>
-<p>2º - Abra-o no VSCode</p>
-<p>3º - Execute no terminal do projeto: *git init*</p>
-<p>4º - Execute no terminal do projeto: *git clone https://github.com/luizcampos/my-dream-box.git*</p>
+<p>2º - Abra-o no VS Code</p>
+<p>3º - Execute no terminal do projeto: `git init`</p>
+<p>4º - Execute no terminal do projeto: `git clone https://github.com/luizcampos/my-dream-box.git`</p>
+<p>5º - O arquivo '.env' e a pasta 'vendor' não serão clonados. [Baixe-os aqui](https://drive.google.com/drive/folders/1-40ZA3FJcqU8NTBfYHk66PYBj_4IySQd?usp=sharing) . Após isso, inclua-os no seu projeto.
 
 <h3>Conectando ao Banco de Dados</h3>
 
-<p>1º - Execute o XAMPP, dando start no **Apache** e no **MySQL**</p>
+<p>1º - Execute o XAMPP, dando start no <strong>Apache</strong> e no <strong>MySQL</strong></p>
 <p>2º - Acesse http://localhost/phpmyadmin/index.php</p>
 <p>3º - Crie o Banco de Dados com nome "mydreambox"</p>
-<p>4º Verifique o arquivo '.env', que contém todas as variáveis ambiente e altere o valor da variável DB_DATABASE para "mydreambox"</p>
-<p>5º - No terminal do projeto execute o comando: *php artisan migrate*</p>
+<p>4º - Verifique se arquivo '.env', que contém todas as variáveis ambiente, possui como valor da variável DB_DATABASE o nome "mydreambox"</p>
+<p>5º - No terminal do projeto execute o comando: `php artisan migrate`</p>
 
 <h3>Executando a aplicação</h3>
 
-</p>Para executar, basta digitar no terminal do projeto aberto no VSCode o seguinte: *php artisan serve*</p>
+</p>Para executar, basta digitar no terminal do projeto aberto no VS Code o seguinte: `php artisan serve` e clicar no link local exibido.</p>
 
 <p align="center"><img src="public/img/screens/banner.png"></p>
 

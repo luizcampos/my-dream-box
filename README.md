@@ -13,13 +13,15 @@ O myDreamBox é um aplicação para auxiliar no controle de metas financeiras pe
 ## Prototipagem
 
 Antes de seu desenvolvimento, o myDreamBox teve seu protótipo criado, algo que oriontou toda a sua implementação. A paleta de cores, fontes e ícones também foram pensados nessa etapa.
-**Cores:** Todo o projeto tem em sua base apenas duas cores. O verde associado ao dinheiro e o rosa ao porquinho que simboliza o ato de guardar dinheiro.
-
-<p align="center"><img src="public/img/figma/colors.png" width="400"></p>
-<p align="center"><img src="public/img/figma/fonts.png" width="400"></p>
-<p align="center"><img src="public/img/figma/logos.png" width="400"></p>
-
 **[Veja o protótipo](https://www.figma.com/file/r0loiAVkuDAUsMN7AzslbF/myDreamBox?node-id=0%3A1)**
+
+**Cores:** Todo o projeto tem em sua base apenas duas cores. O verde associado ao dinheiro e o rosa ao porquinho que simboliza o ato de guardar dinheiro.
+**Fonte:** [Dosis](https://fonts.google.com/specimen/Dosis)
+
+<p align="center"><img src="public/img/figma/colors.png" width="300"></p>
+<p align="center"><img src="public/img/figma/fonts.png" width="300"></p>
+<p align="center"><img src="public/img/figma/logos.png" width="300"></p>
+
 
 ## Como utilizar?
 
@@ -36,22 +38,22 @@ A utilização é fácil, siga os passos abaixo:
 
 Para isso, será necessário que você clone esse projeto para a sua máquina. 
 
-1º - Crie um diretório específico para a aplicação;
-2º - Abra-o no VSCode;
-3º - Execute no terminal do projeto: *git init*;
-4º - Execute no terminal do projeto: *git clone https://github.com/luizcampos/my-dream-box.git*
+<p>1º - Crie um diretório específico para a aplicação</p>
+<p>2º - Abra-o no VSCode</p>
+<p>3º - Execute no terminal do projeto: *git init*</p>
+<p>4º - Execute no terminal do projeto: *git clone https://github.com/luizcampos/my-dream-box.git*</p>
 
 <h3>Conectando ao Banco de Dados</h3>
 
-1º - Execute o XAMPP, dando start no **Apache** e no **MySQL**
-2º - Acesse http://localhost/phpmyadmin/index.php
-3º - Crie o Banco de Dados com nome "mydreambox"
-4º Verifique o arquivo '.env', que contém todas as variáveis ambiente e altere o valor da variável DB_DATABASE para "mydreambox"
-5º - No terminal do projeto execute o comando: *php artisan migrate*
+<p>1º - Execute o XAMPP, dando start no **Apache** e no **MySQL**</p>
+<p>2º - Acesse http://localhost/phpmyadmin/index.php</p>
+<p>3º - Crie o Banco de Dados com nome "mydreambox"</p>
+<p>4º Verifique o arquivo '.env', que contém todas as variáveis ambiente e altere o valor da variável DB_DATABASE para "mydreambox"</p>
+<p>5º - No terminal do projeto execute o comando: *php artisan migrate*</p>
 
 <h3>Executando a aplicação</h3>
 
-Para executar, basta digitar no terminal do projeto aberto no VSCode o seguinte: *php artisan serve*
+</p>Para executar, basta digitar no terminal do projeto aberto no VSCode o seguinte: *php artisan serve*</p>
 
 <p align="center"><img src="public/img/screens/banner.png"></p>
 
